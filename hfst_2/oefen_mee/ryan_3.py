@@ -1,6 +1,6 @@
 import csv # importeer csv module
 
-fp = open( "volcanic-eruptions-EU.csv", "r" ) # open bestand in read modus
+fp = open( "hfst_2/oefenmee/volcanic-eruptions-EU.csv", "r" ) # open bestand in read modus
 # var csv_reader kan je niet rechtstreeks wijzigen of oproepen.
 csv_reader = csv.reader( fp , delimiter=";")  # lees de bestand en deel de zinnen op na elke punt komma
 # print(csv_reader[3]) # Voorbeeld

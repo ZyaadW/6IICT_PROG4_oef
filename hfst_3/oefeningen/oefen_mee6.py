@@ -7,6 +7,12 @@ try:
     else:
         getal = int( getal )
     print( fruit_lijst[getal] )
+except ZeroDivisionError:
+    print("Het getal 0 kan niet worde opegegeven") 
+except ValueError:
+    print("De ingegeven waarde is geen getal")
+except IndexError:
+    print("de index ligt buiten de lijst")    
 except:
     print( "Er ging iets fout" )  
 

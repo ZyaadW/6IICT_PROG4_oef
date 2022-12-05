@@ -19,7 +19,7 @@ else:
     except ValueError:
         print("De ingegeven waarde is geen getal") 
     except ZeroDivisionError:
-        print("Het getal 0 kan niet worden opegegeven")
+        print("Het getal 0 kan niet worden opgegeven")
 # """ Niveau 3 (haal uit commentaar) """
 finally:
     print( "Het programma is beëndigd")

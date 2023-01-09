@@ -1,3 +1,5 @@
+import pygame, requests
+
 """ Niveau 1 & 2
 Wat gaat hier mis?
 """

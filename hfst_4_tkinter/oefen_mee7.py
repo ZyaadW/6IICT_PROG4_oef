@@ -10,7 +10,7 @@ veld = tk.Entry(master=venster, width=50, fg="red")
 veld.grid(row=0, column=1)
 
 def display_naam():
-    tekst = f"Hallo, mijn naam is {veld.get()}!"
+    tekst = f"Hallo, mijn naam is {veld.get()}!" # op deze regel wordt uw variabele opgeslagen
     label_naam = tk.Label(master=venster, text=tekst, width=50, height=2)
     label_naam.grid(row=2, column=0, columnspan=2)
 

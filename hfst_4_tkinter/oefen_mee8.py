@@ -14,10 +14,10 @@ link_2 = tk.Entry(master=venster, width=33, font=("Helvetica",14),
 link_2.grid(row=1, column=1)
 
 def reset_links():
-    link_1.delete(0, 1)
+    link_1.delete(0, 1) # hier wordt de eerste karakter in het linkse kolom verwijdert
 
     web_2 = link_2.get()
-    link_2.delete( 0, web_2.find(".")+1 )
+    link_2.delete( 0, web_2.find(".")+1 ) # hier wordt alles verwijdert tot en met een punt
 
 knop = tk.Button(master=venster, command=reset_links, 
                  text="Reset input!", width=50)

@@ -174,5 +174,11 @@ cython_debug/
 # Add own ignores here
 !/README.md/
 
+<<<<<<< HEAD
 hfst_5_AI/objectdetectie/yolo/yolov3_tiny.weights
 hfst_5_AI/objectdetectie/yolo/yolov3.weights
+=======
+yolov3.weights
+yolov3_tiny.weights
+yolov3-tiny-custom.weights
+>>>>>>> 26bfb7e9dd06a2b13d5dde39c7385a490a7c71bf

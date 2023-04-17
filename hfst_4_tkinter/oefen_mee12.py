@@ -27,6 +27,3 @@ knop = tk.Button(master=venster, command=, text="Bereken resultaat:", width=50)
 knop.grid(row=2, column=0, columnspan=2, pady=10)
 
 venster.mainloop()
-
-# Maak de GUI zichtbaar op de computer.
-venster.mainloop()

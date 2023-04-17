@@ -350,5 +350,5 @@ def yolo_papier(pad):
 
     plt_imshow(filename + "_yolo3." + ext, afbeelding)
 
-# realtime(2, "custom")
+realtime(0, "normal")
 # yolo_papier(r"")
